@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Productcart from '../components/Productcart'
-import { photo } from '../assets/data'
+import { photo } from '../assets/data';
 
 const Home = () => {
 

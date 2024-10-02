@@ -28,9 +28,11 @@ const Header = () => {
                         Orders
                     </Link>
                 </div></dialog></> :
-                <Link to={"/search"}>
-                    <FaSignInAlt />
-                </Link>
+                (
+                    <Link to={"/login"}>
+                        <FaSignInAlt />
+                    </Link>
+                )
         }
     </nav>
     )
